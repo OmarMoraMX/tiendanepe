@@ -9,7 +9,7 @@ const cors = require('cors'); // <--- AÑADE ESTA LÍNEA
 // 3. Crear la aplicación Express
 const app = express();
 app.use(cors({
-  origin: 'https://mitiendafrontend.onrender.com/', // Pon tu URL de frontend aquí
+  origin: 'https://tiendanepe.onrender.com/', // Pon tu URL de frontend aquí
   credentials: true
 }));
 app.use(express.json()); // <--- AÑADE ESTA LÍNEA (para entender JSON)
